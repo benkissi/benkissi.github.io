@@ -1,3 +1,41 @@
 #nav-logo {
     height: 40px;
 }
+
+.consul-button {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 50px;
+    height: 60px;
+    font-size: 1rem;
+    background-color: #ffa500;
+}
+.consul-button:hover {
+    background-color: #ffc63e;
+}
+
+#my-principles {
+    background: #fff;
+  }
+
+#my-principles h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+#my-principles p {
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+.primary-btn{
+    background: -moz-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    background: -ms-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+  }
+
+  .p-img {
+      width: 160px !important;
+  }
