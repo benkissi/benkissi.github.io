@@ -48,3 +48,9 @@
   #courses {
       padding-top: 0px;
   }
+
+  .footer-btn {
+      margin-top: 10px;
+      font-size: 0.9rem !important;
+      width: 100%;
+  }
