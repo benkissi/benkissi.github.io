@@ -1,8 +1,5 @@
 $(document).ready(function() {
 
-    var reviewWidgetTitle = $(".kudobuzz_neptune_widget_modal_header_title");
-    console.log(reviewWidgetTitle.val());
-
     function validateEmail(email) {
         var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
         return re.test(email);
@@ -41,8 +38,6 @@ $(document).ready(function() {
 
 });
 
-$( window ).on( "load", function() { 
-    $(".kudobuzz_neptune_widget_modal_header_title").load(function() {
-        console.log(reviewWidgetTitle.innerHTML);
-    })
+$( window ).on( "load", function() {
+    
  });
