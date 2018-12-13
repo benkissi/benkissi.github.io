@@ -47,10 +47,36 @@
 
   #courses {
       padding-top: 0px;
+      margin-top: 100px;
   }
 
   .footer-btn {
       margin-top: 10px;
       font-size: 0.9rem !important;
       width: 100%;
+  }
+
+  #honeypot {
+    display: none !important;
+    position: absolute;
+  }
+
+  .spacer {
+      margin-top: 15px;
+  }
+  .bold {
+      font-weight: bold;
+  }
+
+  .skills-height {
+      height: 130px;
+      margin-bottom: 20px !important;
+  }
+
+  #design {
+      width: 100px;
+  }
+
+  #backend {
+      width: 150px;
   }
