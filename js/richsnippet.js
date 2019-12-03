@@ -8,7 +8,7 @@ async function getReview() {
 function loadJSONLD(metadata) {
     const dataObject = {
         '@context': 'http://schema.org',
-        '@type': 'Organization',
+        '@type': 'Product',
         name: 'Ben Kissi',
         aggregateRating: {
             '@type': 'AggregateRating',
